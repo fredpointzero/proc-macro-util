@@ -8,7 +8,7 @@ description = "Utilities to implement procedural macros"
 homepage = "https://github.com/fredpointzero/proc-macro-util"
 repository = "https://github.com/fredpointzero/proc-macro-util"
 keywords = ["syn", "quote", "proc_macro"]
-categories = ["parsing", "utilities", "macro"]
+categories = ["parsing"]
 readme = "README.md"
 include = ["Cargo.toml", "src/**/*.rs", "crates-io.md", ""]
 
