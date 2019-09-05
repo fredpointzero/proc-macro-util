@@ -12,6 +12,9 @@ categories = ["parsing"]
 readme = "README.md"
 include = ["Cargo.toml", "src/**/*.rs", "crates-io.md", ""]
 
+[badges]
+travis-ci = { repository = "fredpointzero/proc-macro-util" }
+
 [dependencies]
 proc-macro2 = "^1.0.0"
 syn = "^1.0.0"
