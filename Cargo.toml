@@ -5,6 +5,7 @@ authors = ["Frédéric Vauchelles <frederic.vauchelles@gmail.com>"]
 edition = "2018"
 license = "MIT or Apache-2.0"
 description = "Utilities to implement procedural macros"
+homepage = "https://github.com/fredpointzero/proc-macro-util"
 repository = "https://github.com/fredpointzero/proc-macro-util"
 keywords = ["syn", "quote", "proc_macro"]
 categories = ["parsing", "utilities", "macro"]
