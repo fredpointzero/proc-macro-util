@@ -1,0 +1,21 @@
+[package]
+name = "proc-macro-util"
+version = "0.1.0"
+authors = ["Frédéric Vauchelles <frederic.vauchelles@gmail.com>"]
+edition = "2018"
+license = "MIT or Apache-2.0"
+description = "Utilities to implement procedural macros"
+repository = "https://github.com/fredpointzero/proc-macro-util"
+keywords = ["syn", "quote", "proc_macro"]
+categories = ["parsing", "utilities", "macro"]
+readme = "README.md"
+include = ["Cargo.toml", "src/**/*.rs", "crates-io.md", ""]
+
+[dependencies]
+proc-macro2 = "^1.0.0"
+syn = "^1.0.0"
+failure = "^0.1.0"
+quote = "^1.0.0"
+
+[dev-dependencies]
+quote = "^1.0.0"
